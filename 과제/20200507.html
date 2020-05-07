@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>div vs span vs p 차이점 알기</title>
+    <style>
+        div, p {
+            border: 1px solid black;
+            background-color: #eded4c;
+            padding: 10px;
+/*            height: 100px;   css style의 주석문*/
+        }
+        span {
+            border: 1px solid black;
+            background-color: #e08e9d;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f4e5d5">
+   양영디지털고등학교 <br>
+    <!-- br태그는 단순 줄바뀜, 홀태그 </br>은 지금 사용 안함  -->
+    양영디지털고등학교 <br>
+    양영디지털고등학교 <br><br>
+    양영디지털고등학교 
+<!--    주석문 ctrl+? p태그는 문단태그 = <br><br>과 동일한 효과-->
+    <p>양영디지털고등학교<br>
+    양영디지털고등학교</p>
+    <b>양영디지털고등학교</b><br>
+    <i>양영디지털고등학교</i>
+    <hr>
+    <p>
+        양영디지털고등학교
+    </p>
+<!--    div는 블럭 엘리먼트 : 태그의 영역이 브라우저 양끝까지 차지-->
+    <div>
+        양영디지털고등학교
+    </div>소프트과입니다
+    <br>
+    <br>
+<!--    span은 인라인 엘리먼트 ; 태그안에 문자 정보 길이만큼 영역을 차지-->
+    <span>
+        양영디지털 고등학교
+    </span> &nbsp;&nbsp;&nbsp;&nbsp;&copy;소프트과입니다.
+<!--    &nbsp;는 한칸띄우는 엔티티. &copy; 는 저작권을 표시하는 엔티티.-->
+<hr>
+<div>div 태그</div>
+<p>p 태그</p>
+<span>span 태그</span>
+<!--span 태그는 div,p 태그를 포함할수 없다.
+<span>
+    <div>div 태그</div>
+    <p>p 태그</p>
+</span>
+-->
+<br><br><br>
+<div>div 태그 <span>span 태그</span></div>
+<p>p 태그 <span>span 태그</span></p>
+</body>
+</html>
