@@ -1,0 +1,30 @@
+/*초기화 코드*/
+@charset "utf-8";
+
+* {
+/*    margin: 0;*/
+/*    padding: 0;*/
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*과제 코드*/
+#aa {
+    background-color: #acddfe;
+}
+
+#bb {
+    background-color: #ff67aa;
+    color: #fff;
+}
+
+p {
+    background-color: #fdff01;
+}

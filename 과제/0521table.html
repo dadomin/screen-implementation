@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>20200521 목요일 7교시 과제</title>
+</head>
+<body>
+     <h1>table 속성 : 경계값(border) 과 정렬(align)</h1>
+  <hr>
+   <table border="1" align="left">
+       <tr>
+           <td>첫번 쨰 테이블</td>
+       </tr>
+       <tr>
+           <td>왼쪽 정렬</td>
+       </tr>
+   </table>
+   <br><br>
+   <table border="1" align="center">
+       <tr>
+           <td>두번쨰 테이블</td>
+       </tr>
+       <tr>
+           <td>가운데 정렬</td>
+       </tr>
+   </table>
+   <br><br>
+   <table border="1" align="right">
+       <tr>
+           <td>세번쨰 테이블</td>
+       </tr>
+       <tr>
+           <td>오른쪽 정렬</td>
+       </tr>
+   </table> 
+   <br><br>
+<center>
+<table border="5">
+    <tr>
+        <td>테두리선의 두께 : 5</td>
+    </tr>
+</table>
+<table border="10">
+    <tr>
+        <td>테두리선의 두께 : 10</td>
+    </tr>
+</table>
+<table border="15">
+    <tr>
+        <td>테두리선의 두께 : 15</td>
+    </tr>
+</table>
+</center>
+<br><br>
+<h1>table 속성 : 테이블 셀의 여백주기</h1>
+<table border="1" cellspacing="10">
+    <tr>
+        <td>1st cell</td>
+        <td>2nd cell</td>
+    </tr>
+</table>
+<table border="1" cellspacing="10">
+    <tr>
+        <td>1st cell</td>
+        <td>2nd cell</td>
+    </tr>
+</table>
+<br><br>
+<h1>기본 테이블 구조</h1>
+<table>
+<!--  th : table header 해당내용이 굵게 표시-->
+   <th>테이블(테이블 제목)</th>
+   <th>만들기(테이블 제목)</th>
+<!--   tr: table row 행, 줄에 해당-->
+    <tr>
+<!--       td: table data(cell) 열, 칸에 해당 되고 실제 문자등 내용이 입력-->
+        <td>첫번째 줄의 첫번째 칸</td>
+        <td>첫번째 줄의 두번째 칸</td>
+    </tr>
+    <tr>
+        <td>두번째 줄의 첫번째 칸</td>
+        <td>두번째 줄의 두번째 칸</td>
+    </tr>
+</table>
+    <br><br>
+    
+    <h1>테이블 심화</h1>
+    <table border="1">
+       <tr bgcolor="blue" align="center" width ="500" height="40">
+           <td colspan="3" span style="color: white">오늘의 수입/지출</td>
+       </tr>
+        <tr>
+            <td>내용</td>
+            <td>수입</td>
+            <td>지출</td>
+        </tr>
+        <tr>
+            <td>월급</td>
+            <td>1,000,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>점심값</td>
+            <td></td>
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <td>부모님선물</td>
+           <td></td>
+            <td>50,000</td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center" bgcolor="skyblue">총계</td>
+            <td>수입</td>
+            <td>지출</td>
+        </tr>
+        <tr>
+            <td>1,000,000</td>
+            <td>80,000</td>
+        </tr>
+    </table>
+
+     
+</body>
+</html>
