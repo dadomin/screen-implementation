@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폼(Form) 연습</title>
+</head>
+<body>
+    <h2>피자 주문하기</h2> <hr>
+    <!--    이곳에 Step1 HTML 코드를 입력하세요-->
+    <form>
+        <p><label>고객 이름 : <input name="custname"></label></p>
+        <!--  이곳에 Step3 HTML 코드를 입력하세요-->
+        <p><label>전화 번호 : <input name="custtel"></label></p>
+        <p><label>메일 주소 : <input name="custemail"></label></p>
+        <fieldset>
+            <legend>피자 크기</legend>
+            <label><input type="radio"name="size"value="small">Small</label>
+            <label><input type="radio"name="size"value="medium">Medium</label>
+            <label><input type="radio"name="size"value="large">Large</label>
+        </fieldset>
+        <!--  이곳에 Step2 HTML 코드를 입력하세요.      -->
+        <fieldset>
+            <legend>피자 토핑 고르기</legend>
+            <label><input type="checkbox"name="topping"value="bacon">베이컨</label>
+        </fieldset>
+    </form>
+</body>
+</html>
