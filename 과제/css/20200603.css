@@ -1,0 +1,23 @@
+h1 {
+    color: mediumpurple;
+}
+fieldset {
+    border-color: sandybrown;
+    width: 450px;
+    height: 250px;
+}
+div {
+    width: 330px;
+    border: 1px solid #fcf1d2;
+    padding: 5px 3px;
+    margin: 10px 15px;
+    color: #ddd;
+}
+div > input {
+    border: 1px solid #ddd;
+    color: #ddd;
+    margin-left: 5px;
+}
+div > input::placeholder {
+    color: #ddd;
+}
