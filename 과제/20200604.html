@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>form 태그</title>
+</head>
+<body>
+    <h1>form 태그 정리</h1>
+    <hr>
+    <form action="" accept-charset="utf-8" name="person_info" method="get">
+        <legend>개인정보 입력</legend>
+        <fieldset style="width: 250px; height: 250px">
+        이름 : <input type="text"><br><br>
+        나이 : <input type="text"><br><br>
+        
+        지역선택(size, multiple 속성 추가) <br>
+        <select name="city1" id="" size="3" multiple>
+            <option value="city1">성남시</option>
+            <option value="city2">수원시</option>
+            <option value="city3">용인시</option>
+            <option value="city4">광주시</option>
+            <option value="city5">안양시</option>
+            <option value="city6">하남시</option>
+        </select>
+        <br><br>
+        자연선택(optgroup 태그 포함) <br>
+        <select name="city2" id="">
+            <optgroup label="서울">
+                <option value="c1">송파구</option>
+                <option value="c2">강남구</option>
+                <option value="c3">서초구</option>
+                <option value="c4">중량구</option>
+            </optgroup>
+            <optgroup label="경기도">
+                <option value="">성남시</option>
+                <option value="">용인시</option>
+                <option value="">광주시</option>
+                <option value="">하남시</option>
+            </optgroup>
+        </select>
+    </fieldset><br><br>
+      <fieldset style="width: 180px; height: 180px">
+          <legend>여가활동</legend>
+          취미 : <input type="text"><br><br>
+          특기 : <input type="text"><br><br>
+      </fieldset><br>
+      <input type="submit" value="제출">
+      <input type="reset" value="초기화">
+    </form>
+</body>
+</html>
