@@ -1,0 +1,22 @@
+body {
+    background-color: #ddd;
+}
+div {
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 30px;
+    margin-bottom: 12px;
+}
+.example-test1 {
+    border: 1px solid #f00;
+}
+.example-test2 {
+    border: 3px double #f00;
+}
+.example-test3 {
+    border: 1px dashed #f00;
+}
+.example-test4 {
+    border: 1px dotted #f00;
+}
