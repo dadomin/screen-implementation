@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>display vs float</title>
+   <style>
+      * {
+         box-sizing: border-box;
+         list-style: none;
+      }
+
+      .a {
+         display: inline;
+         width: 100px;
+         height: 100px;
+         padding: 5px;
+         background-color: yellow;
+         border: 1px solid blue;
+      }
+
+      .b{
+         display: block;
+         width: 100px;
+         height: 100px;
+         padding: 5px;
+         background-color: yellow;
+         border: 1px solid blue;
+      }
+
+      .c {
+         display: inline-block;
+         width: 100px;
+         height: 100px;
+         padding: 5px;
+         background-color: yellow;
+         border: 1px solid blue;
+      }
+
+      .d {
+         float: left;
+         width: 100px;
+         height: 100px;
+         padding: 5px;
+         background-color: yellow;
+         border: 1px solid blue;
+      }
+
+   </style>
+</head>
+<body>
+   <h1>display vs float</h1>
+
+   <h2>display:inline</h2>
+      <ul>
+         <li class="a">전자과</li>
+         <li class="a">통신과</li>
+         <li class="a">소프트과</li>
+         <li class="a">바이오과</li>
+      </ul>
+      
+      <a href="#" class="a">전자과</a>
+      <a href="#" class="a">통신과</a>
+      <a href="#" class="a">소프트과</a>
+      <a href="#" class="a">바이오과</a>
+
+   <h2>display: block</h2>
+      <ul>
+         <li class="b">전자과</li>
+         <li class="b">통신과</li>
+         <li class="b">소프트과</li>
+         <li class="b">바이오과</li>
+      </ul>
+
+      <a href="#" class="b">전자과</a>
+      <a href="#" class="b">통신과</a>
+      <a href="#" class="b">소프트과</a>
+      <a href="#" class="b">바이오과</a>
+
+   <h2>display:inline</h2>
+      <ul>
+         <li class="c">전자과</li>
+         <li class="c">통신과</li>
+         <li class="c">소프트과</li>
+         <li class="c">바이오과</li>
+      </ul>
+      
+      <a href="#" class="c">전자과</a>
+      <a href="#" class="c">통신과</a>
+      <a href="#" class="c">소프트과</a>
+      <a href="#" class="c">바이오과</a>
+
+   <h2>float </h2>
+   <div class="f-width">
+      <ul>
+         <li class="d">전자과</li>
+         <li class="d">통신과</li>
+         <li class="d">소프트과</li>
+         <li class="d">바이오과</li>
+      </ul>
+   </div>
+</body>
+</html>
